@@ -26,7 +26,6 @@ public class AccountController {
 
     @Autowired
     private AccountRepository accountre;
-    
 
     public AccountRepository getAccountRepository(){
        return this.accountre;
